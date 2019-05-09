@@ -3,6 +3,7 @@
 #mau apa mau recode???
 #ya elah kodingan simple aja recode-,-
 #tapi gak papa deh kalo buat belajar:)
+#maap kalo ada keslahan yah,nanti insyaallah akan diperbaiki terus kok
 
 clear
 #variable
