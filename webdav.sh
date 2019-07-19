@@ -1,5 +1,6 @@
 #!/bin/bash
 #pembuat Billy
+#Updated Fri-Jul-2019, 18:14
 #mau apa mau recode???
 #ya elah kodingan simple aja recode-,-
 #tapi gak papa deh kalo buat belajar:)
